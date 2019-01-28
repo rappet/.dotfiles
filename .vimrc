@@ -1,7 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set encoding=utf-8
-syntax on
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -60,6 +59,10 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'https://github.com/neovimhaskell/haskell-vim.git'
 Plugin 'toyamarinyon/vim-swift'
 Plugin 'leafgarland/typescript-vim'
+
+Plugin 'cespare/vim-toml'
+syntax on
+
 " Plugin 'racer-rust/vim-racer'
 
 " All of your Plugins must be added before the following line
