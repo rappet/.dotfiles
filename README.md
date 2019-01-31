@@ -10,6 +10,7 @@ $ git clone https://git.rappet.de/rappet/.dotfiles.git
 ln -s ~/.vimrc ~/.dotfiles/.vimrc
 ln -s ~/.tmux.conf ~/.dotfiles/.tmux.conf
 ln -s ~/.zshrc ~/.dotfiles/.zshrc
+ln -s ~/.config/i3/config ~/.dotfiles/i3-config
 ```
 
 If you use the vim dotfiles, you sould install Vundle, run `:PluginInstall`
