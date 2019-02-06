@@ -30,7 +30,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -175,3 +175,11 @@ bindsym Ctrl+$mod+u exec "setxkbmap us"
 bindsym Ctrl+$mod+l --release exec "slock"
 bindsym XF86Launch1 exec "mplayer ~/Musik/nootnoot.m4a"
 exec --no-startup-id nm-applet
+
+bindsym XF86Battery --release exec "slock"
+bindsym XF86AudioMute exec "pactl set-sink-mute 0 toggle"
+bindsym XF86AudioMicMute exec "pactl set-source-mute 1 toggle"
+bindsym XF86AudioLowerVolume exec "pactl set-sink-volume 0 -10%"
+bindsym XF86AudioRaiseVolume exec "pactl set-sink-volume 0 +10%"
+bindsym XF86Display exec "xrandr --auto; xrandr --output LVDS-1 --off"
+bindsym XF86WebCam exec "xrandr --auto"
