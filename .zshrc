@@ -18,6 +18,7 @@ setopt appendhistory autocd
 PATH=$PATH:~/.local/bin
 PATH=$PATH:/usr/local/go/bin
 GOPATH=~/prog/go
+PATH=$PATH:$GOPATH/bin
 
 export PATH GOPATH
 
