@@ -49,16 +49,18 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-" Plugin 'fatih/vim-go'
+"Plugin 'mdempsky/gocode', {'rtp': 'vim/'}
+Plugin 'fatih/vim-go'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator'
+"Plugin 'rdnetto/YCM-Generator'
 Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'octol/vim-cpp-enhanced-highlight'
+"Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin 'rust-lang/rust.vim'
 Plugin 'https://github.com/neovimhaskell/haskell-vim.git'
 Plugin 'toyamarinyon/vim-swift'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'https://github.com/khzaw/vim-conceal.git'
 
 Plugin 'cespare/vim-toml'
 syntax on
