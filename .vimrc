@@ -90,13 +90,13 @@ let NERDTreeMapOpenInTab='\r'
 :set guifont=Monospace\ 8
 let g:racer_cmd = "/home/rappet/.cargo/bin/racer"
 let g:ycm_rust_src_path = "/home/rappet/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
-colorscheme breeze
+colorscheme monokai-phoenix
 :set colorcolumn=80
 
-set rtp+=.local/lib/python3.7/site-packages/powerline/bindings/vim
+"set rtp+=.local/lib/python3.7/site-packages/powerline/bindings/vim
 
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
+"python3 from powerline.vim import setup as powerline_setup
+"python3 powerline_setup()
+"python3 del powerline_setup
 
 set laststatus=2
