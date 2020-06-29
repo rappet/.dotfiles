@@ -25,7 +25,7 @@ export PATH GOPATH
 #powerline-daemon -q
 #. /home/rappet/.local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
-. ~/prog/z/z.sh
+. ~/.dotfiles/z/z.sh
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /home/rappet/.local/bin/mc mc
