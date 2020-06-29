@@ -19,6 +19,7 @@ PATH=$PATH:~/.local/bin
 PATH=$PATH:/usr/local/go/bin
 GOPATH=~/prog/go
 PATH=$PATH:$GOPATH/bin
+PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH GOPATH
 
@@ -29,3 +30,5 @@ export PATH GOPATH
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /home/rappet/.local/bin/mc mc
+
+complete -o nospace -C /usr/local/bin/terraform terraform
