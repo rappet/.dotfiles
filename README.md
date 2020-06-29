@@ -16,3 +16,5 @@ ln -s ~/.config/i3/config ~/.dotfiles/i3-config
 
 If you use the vim dotfiles, you sould install Vundle, run `:PluginInstall`
 in vim and compile YouCompleteMe using `~/.vim/bundle/YouCompleteMe/install.py`.
+
+*YouCompleteMe is deactivated in .vimrc*
