@@ -5,10 +5,6 @@ set encoding=utf-8
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 set number
-"set relativenumber
-set tabstop=4
-set shiftwidth=4
-set noexpandtab
 
 set listchars=tab:\ \ ,trail:\ 
 set list
@@ -58,6 +54,7 @@ Plugin 'https://github.com/neovimhaskell/haskell-vim.git'
 Plugin 'toyamarinyon/vim-swift'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'https://github.com/khzaw/vim-conceal.git'
+Plugin 'editorconfig/editorconfig-vim'
 
 Plugin 'cespare/vim-toml'
 syntax on
