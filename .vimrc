@@ -86,7 +86,6 @@ let NERDTreeMapOpenInTab='\r'
 :set guifont=Monospace\ 8
 let g:racer_cmd = "/home/rappet/.cargo/bin/racer"
 let g:ycm_rust_src_path = "/home/rappet/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
-colorscheme monokai-phoenix
 :set colorcolumn=80
 
 "set rtp+=.local/lib/python3.7/site-packages/powerline/bindings/vim
