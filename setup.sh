@@ -34,7 +34,7 @@ backup_file .editorconfig
 ln -sf ${repo}/.editorconfig .editorconfig
 
 backup_file .config/powerline/config.json
-mkdir -p ~/.config/powerline/config.json
+mkdir -p ~/.config/powerline
 ln -sf ${repo}/powerline-config.json ~/.config/powerline/config.json
 
 vim +PluginInstall +qall
