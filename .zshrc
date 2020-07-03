@@ -23,8 +23,8 @@ PATH="$HOME/.cargo/bin:$PATH"
 
 export PATH GOPATH
 
-#powerline-daemon -q
-#. /home/rappet/.local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+powerline-daemon -q
+. /home/rappet/.local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 . ~/.dotfiles/z/z.sh
 
